@@ -1,0 +1,7 @@
+entero funcion principal ()
+{
+  texto resultado = "Sin resultado";
+  imprimir(resultado);
+
+  devolver 0;
+}

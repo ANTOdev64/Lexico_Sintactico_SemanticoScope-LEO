@@ -1,0 +1,2273 @@
+digraph {
+	1 [label=PROGRAMA fillcolor=white style=filled]
+	3 [label=FUNCTION fillcolor=white style=filled]
+	1 -> 3
+	14 [label=Q fillcolor=white style=filled]
+	3 -> 14
+	15 [label=type fillcolor=white style=filled]
+	14 -> 15
+	16 [label="TYPE_INT
+line: 2
+col: 52
+value: entero" fillcolor=white style=filled]
+	15 -> 16
+	13 [label="FUNCION
+line: 2
+col: 59
+value: funcion" fillcolor=white style=filled]
+	3 -> 13
+	12 [label="ID
+line: 2
+col: 67
+value: fibonacci" fillcolor=white style=filled]
+	3 -> 12
+	11 [label="PARENTESIS_ABIERTO
+line: 2
+col: 76
+value: (" fillcolor=white style=filled]
+	3 -> 11
+	10 [label=TI fillcolor=white style=filled]
+	3 -> 10
+	19 [label=Q fillcolor=white style=filled]
+	10 -> 19
+	20 [label=type fillcolor=white style=filled]
+	19 -> 20
+	21 [label="TYPE_INT
+line: 2
+col: 77
+value: entero" fillcolor=white style=filled]
+	20 -> 21
+	18 [label="ID
+line: 2
+col: 84
+value: n" fillcolor=white style=filled]
+	10 -> 18
+	17 [label=PF fillcolor=white style=filled]
+	10 -> 17
+	9 [label="PARENTESIS_CERRADO
+line: 2
+col: 85
+value: )" fillcolor=white style=filled]
+	3 -> 9
+	8 [label="LLAVE_ABIERTO
+line: 3
+col: 87
+value: {" fillcolor=white style=filled]
+	3 -> 8
+	7 [label=Sentencias fillcolor=white style=filled]
+	3 -> 7
+	23 [label=sentencia fillcolor=white style=filled]
+	7 -> 23
+	25 [label=Crear_variables fillcolor=white style=filled]
+	23 -> 25
+	28 [label=Q fillcolor=white style=filled]
+	25 -> 28
+	29 [label=type fillcolor=white style=filled]
+	28 -> 29
+	30 [label="TYPE_INT
+line: 4
+col: 93
+value: entero" fillcolor=white style=filled]
+	29 -> 30
+	27 [label="ID
+line: 4
+col: 100
+value: resultado" fillcolor=white style=filled]
+	25 -> 27
+	26 [label=Z fillcolor=white style=filled]
+	25 -> 26
+	32 [label="IGUAL
+line: 4
+col: 110
+value: =" fillcolor=white style=filled]
+	26 -> 32
+	31 [label=E fillcolor=white style=filled]
+	26 -> 31
+	34 [label=T fillcolor=white style=filled]
+	31 -> 34
+	36 [label=FH fillcolor=white style=filled]
+	34 -> 36
+	37 [label="NUMERO
+line: 4
+col: 112
+value: 0" fillcolor=white style=filled]
+	36 -> 37
+	35 [label="T'" fillcolor=white style=filled]
+	34 -> 35
+	33 [label="E'" fillcolor=white style=filled]
+	31 -> 33
+	24 [label="PUNTO_COMA
+line: 4
+col: 113
+value: ;" fillcolor=white style=filled]
+	23 -> 24
+	22 [label=Sentencias fillcolor=white style=filled]
+	7 -> 22
+	39 [label=sentencia fillcolor=white style=filled]
+	22 -> 39
+	45 [label="IF
+line: 6
+col: 120
+value: si" fillcolor=white style=filled]
+	39 -> 45
+	44 [label=CONDITIONAL fillcolor=white style=filled]
+	39 -> 44
+	48 [label="PARENTESIS_ABIERTO
+line: 6
+col: 123
+value: (" fillcolor=white style=filled]
+	44 -> 48
+	47 [label=H fillcolor=white style=filled]
+	44 -> 47
+	52 [label="F'" fillcolor=white style=filled]
+	47 -> 52
+	54 [label="ID
+line: 6
+col: 124
+value: n" fillcolor=white style=filled]
+	52 -> 54
+	53 [label=FN fillcolor=white style=filled]
+	52 -> 53
+	51 [label=F fillcolor=white style=filled]
+	47 -> 51
+	55 [label="MENOR_IGUAL
+line: 6
+col: 126
+value: <=" fillcolor=white style=filled]
+	51 -> 55
+	50 [label="F'" fillcolor=white style=filled]
+	47 -> 50
+	56 [label="NUMERO
+line: 6
+col: 129
+value: 0" fillcolor=white style=filled]
+	50 -> 56
+	49 [label=R fillcolor=white style=filled]
+	47 -> 49
+	46 [label="PARENTESIS_CERRADO
+line: 6
+col: 130
+value: )" fillcolor=white style=filled]
+	44 -> 46
+	43 [label="LLAVE_ABIERTO
+line: 7
+col: 137
+value: {" fillcolor=white style=filled]
+	39 -> 43
+	42 [label=Sentencias fillcolor=white style=filled]
+	39 -> 42
+	58 [label=sentencia fillcolor=white style=filled]
+	42 -> 58
+	60 [label=Asig_varibles fillcolor=white style=filled]
+	58 -> 60
+	63 [label="ID
+line: 8
+col: 147
+value: resultado" fillcolor=white style=filled]
+	60 -> 63
+	62 [label="IGUAL
+line: 8
+col: 157
+value: =" fillcolor=white style=filled]
+	60 -> 62
+	61 [label=E fillcolor=white style=filled]
+	60 -> 61
+	65 [label=T fillcolor=white style=filled]
+	61 -> 65
+	67 [label=FH fillcolor=white style=filled]
+	65 -> 67
+	68 [label="NUMERO
+line: 8
+col: 159
+value: 0" fillcolor=white style=filled]
+	67 -> 68
+	66 [label="T'" fillcolor=white style=filled]
+	65 -> 66
+	64 [label="E'" fillcolor=white style=filled]
+	61 -> 64
+	59 [label="PUNTO_COMA
+line: 8
+col: 160
+value: ;" fillcolor=white style=filled]
+	58 -> 59
+	57 [label=Sentencias fillcolor=white style=filled]
+	42 -> 57
+	41 [label="LLAVE_CERRADO
+line: 13
+col: 228
+value: }" fillcolor=white style=filled]
+	39 -> 41
+	40 [label=ELS fillcolor=white style=filled]
+	39 -> 40
+	74 [label="ELSEIF
+line: 10
+col: 173
+value: contrariosi" fillcolor=white style=filled]
+	40 -> 74
+	73 [label=CONDITIONAL fillcolor=white style=filled]
+	40 -> 73
+	77 [label="PARENTESIS_ABIERTO
+line: 10
+col: 185
+value: (" fillcolor=white style=filled]
+	73 -> 77
+	76 [label=H fillcolor=white style=filled]
+	73 -> 76
+	81 [label="F'" fillcolor=white style=filled]
+	76 -> 81
+	83 [label="ID
+line: 10
+col: 186
+value: n" fillcolor=white style=filled]
+	81 -> 83
+	82 [label=FN fillcolor=white style=filled]
+	81 -> 82
+	80 [label=F fillcolor=white style=filled]
+	76 -> 80
+	84 [label="IGUAL_IGUAL
+line: 10
+col: 188
+value: ==" fillcolor=white style=filled]
+	80 -> 84
+	79 [label="F'" fillcolor=white style=filled]
+	76 -> 79
+	85 [label="NUMERO
+line: 10
+col: 191
+value: 1" fillcolor=white style=filled]
+	79 -> 85
+	78 [label=R fillcolor=white style=filled]
+	76 -> 78
+	75 [label="PARENTESIS_CERRADO
+line: 10
+col: 192
+value: )" fillcolor=white style=filled]
+	73 -> 75
+	72 [label="LLAVE_ABIERTO
+line: 11
+col: 199
+value: {" fillcolor=white style=filled]
+	40 -> 72
+	71 [label=Sentencias fillcolor=white style=filled]
+	40 -> 71
+	87 [label=sentencia fillcolor=white style=filled]
+	71 -> 87
+	89 [label=Asig_varibles fillcolor=white style=filled]
+	87 -> 89
+	92 [label="ID
+line: 12
+col: 209
+value: resultado" fillcolor=white style=filled]
+	89 -> 92
+	91 [label="IGUAL
+line: 12
+col: 219
+value: =" fillcolor=white style=filled]
+	89 -> 91
+	90 [label=E fillcolor=white style=filled]
+	89 -> 90
+	94 [label=T fillcolor=white style=filled]
+	90 -> 94
+	96 [label=FH fillcolor=white style=filled]
+	94 -> 96
+	97 [label="NUMERO
+line: 12
+col: 221
+value: 1" fillcolor=white style=filled]
+	96 -> 97
+	95 [label="T'" fillcolor=white style=filled]
+	94 -> 95
+	93 [label="E'" fillcolor=white style=filled]
+	90 -> 93
+	88 [label="PUNTO_COMA
+line: 12
+col: 222
+value: ;" fillcolor=white style=filled]
+	87 -> 88
+	86 [label=Sentencias fillcolor=white style=filled]
+	71 -> 86
+	70 [label="LLAVE_CERRADO
+line: 24
+col: 445
+value: }" fillcolor=white style=filled]
+	40 -> 70
+	69 [label=ELS fillcolor=white style=filled]
+	40 -> 69
+	101 [label="ELSE
+line: 14
+col: 235
+value: contrario" fillcolor=white style=filled]
+	69 -> 101
+	100 [label="LLAVE_ABIERTO
+line: 15
+col: 250
+value: {" fillcolor=white style=filled]
+	69 -> 100
+	99 [label=Sentencias fillcolor=white style=filled]
+	69 -> 99
+	103 [label=sentencia fillcolor=white style=filled]
+	99 -> 103
+	105 [label=Crear_variables fillcolor=white style=filled]
+	103 -> 105
+	108 [label=Q fillcolor=white style=filled]
+	105 -> 108
+	109 [label=type fillcolor=white style=filled]
+	108 -> 109
+	110 [label="TYPE_INT
+line: 16
+col: 260
+value: entero" fillcolor=white style=filled]
+	109 -> 110
+	107 [label="ID
+line: 16
+col: 267
+value: a" fillcolor=white style=filled]
+	105 -> 107
+	106 [label=Z fillcolor=white style=filled]
+	105 -> 106
+	112 [label="IGUAL
+line: 16
+col: 269
+value: =" fillcolor=white style=filled]
+	106 -> 112
+	111 [label=E fillcolor=white style=filled]
+	106 -> 111
+	114 [label=T fillcolor=white style=filled]
+	111 -> 114
+	116 [label=FH fillcolor=white style=filled]
+	114 -> 116
+	117 [label="NUMERO
+line: 16
+col: 271
+value: 0" fillcolor=white style=filled]
+	116 -> 117
+	115 [label="T'" fillcolor=white style=filled]
+	114 -> 115
+	113 [label="E'" fillcolor=white style=filled]
+	111 -> 113
+	104 [label="PUNTO_COMA
+line: 16
+col: 272
+value: ;" fillcolor=white style=filled]
+	103 -> 104
+	102 [label=Sentencias fillcolor=white style=filled]
+	99 -> 102
+	119 [label=sentencia fillcolor=white style=filled]
+	102 -> 119
+	121 [label=Crear_variables fillcolor=white style=filled]
+	119 -> 121
+	124 [label=Q fillcolor=white style=filled]
+	121 -> 124
+	125 [label=type fillcolor=white style=filled]
+	124 -> 125
+	126 [label="TYPE_INT
+line: 17
+col: 282
+value: entero" fillcolor=white style=filled]
+	125 -> 126
+	123 [label="ID
+line: 17
+col: 289
+value: b" fillcolor=white style=filled]
+	121 -> 123
+	122 [label=Z fillcolor=white style=filled]
+	121 -> 122
+	128 [label="IGUAL
+line: 17
+col: 291
+value: =" fillcolor=white style=filled]
+	122 -> 128
+	127 [label=E fillcolor=white style=filled]
+	122 -> 127
+	130 [label=T fillcolor=white style=filled]
+	127 -> 130
+	132 [label=FH fillcolor=white style=filled]
+	130 -> 132
+	133 [label="NUMERO
+line: 17
+col: 293
+value: 1" fillcolor=white style=filled]
+	132 -> 133
+	131 [label="T'" fillcolor=white style=filled]
+	130 -> 131
+	129 [label="E'" fillcolor=white style=filled]
+	127 -> 129
+	120 [label="PUNTO_COMA
+line: 17
+col: 294
+value: ;" fillcolor=white style=filled]
+	119 -> 120
+	118 [label=Sentencias fillcolor=white style=filled]
+	102 -> 118
+	135 [label=sentencia fillcolor=white style=filled]
+	118 -> 135
+	140 [label="BUCLE_FOR
+line: 19
+col: 305
+value: para" fillcolor=white style=filled]
+	135 -> 140
+	139 [label=FOR_CONDITIONAL fillcolor=white style=filled]
+	135 -> 139
+	143 [label="PARENTESIS_ABIERTO
+line: 19
+col: 310
+value: (" fillcolor=white style=filled]
+	139 -> 143
+	142 [label=LU fillcolor=white style=filled]
+	139 -> 142
+	149 [label=Q fillcolor=white style=filled]
+	142 -> 149
+	150 [label=type fillcolor=white style=filled]
+	149 -> 150
+	151 [label="TYPE_INT
+line: 19
+col: 311
+value: entero" fillcolor=white style=filled]
+	150 -> 151
+	148 [label="ID
+line: 19
+col: 318
+value: i" fillcolor=white style=filled]
+	142 -> 148
+	147 [label="IGUAL
+line: 19
+col: 320
+value: =" fillcolor=white style=filled]
+	142 -> 147
+	146 [label=CU fillcolor=white style=filled]
+	142 -> 146
+	152 [label="NUMERO
+line: 19
+col: 322
+value: 2" fillcolor=white style=filled]
+	146 -> 152
+	145 [label=RU fillcolor=white style=filled]
+	142 -> 145
+	154 [label="UNTIL
+line: 19
+col: 324
+value: hastaque" fillcolor=white style=filled]
+	145 -> 154
+	153 [label=YU fillcolor=white style=filled]
+	145 -> 153
+	157 [label="ID
+line: 19
+col: 333
+value: i" fillcolor=white style=filled]
+	153 -> 157
+	156 [label=F fillcolor=white style=filled]
+	153 -> 156
+	158 [label="MENOR_IGUAL
+line: 19
+col: 335
+value: <=" fillcolor=white style=filled]
+	156 -> 158
+	155 [label=CU fillcolor=white style=filled]
+	153 -> 155
+	159 [label="ID
+line: 19
+col: 338
+value: n" fillcolor=white style=filled]
+	155 -> 159
+	144 [label=U fillcolor=white style=filled]
+	142 -> 144
+	161 [label="INSTEP
+line: 19
+col: 340
+value: enpaso" fillcolor=white style=filled]
+	144 -> 161
+	160 [label=CU fillcolor=white style=filled]
+	144 -> 160
+	162 [label="NUMERO
+line: 19
+col: 347
+value: 1" fillcolor=white style=filled]
+	160 -> 162
+	141 [label="PARENTESIS_CERRADO
+line: 19
+col: 348
+value: )" fillcolor=white style=filled]
+	139 -> 141
+	138 [label="LLAVE_ABIERTO
+line: 20
+col: 358
+value: {" fillcolor=white style=filled]
+	135 -> 138
+	137 [label=Sentencias fillcolor=white style=filled]
+	135 -> 137
+	164 [label=sentencia fillcolor=white style=filled]
+	137 -> 164
+	166 [label=Asig_varibles fillcolor=white style=filled]
+	164 -> 166
+	169 [label="ID
+line: 21
+col: 372
+value: resultado" fillcolor=white style=filled]
+	166 -> 169
+	168 [label="IGUAL
+line: 21
+col: 382
+value: =" fillcolor=white style=filled]
+	166 -> 168
+	167 [label=E fillcolor=white style=filled]
+	166 -> 167
+	171 [label=T fillcolor=white style=filled]
+	167 -> 171
+	173 [label=FH fillcolor=white style=filled]
+	171 -> 173
+	175 [label="ID
+line: 21
+col: 384
+value: a" fillcolor=white style=filled]
+	173 -> 175
+	174 [label=FN fillcolor=white style=filled]
+	173 -> 174
+	172 [label="T'" fillcolor=white style=filled]
+	171 -> 172
+	170 [label="E'" fillcolor=white style=filled]
+	167 -> 170
+	178 [label="SUMA
+line: 21
+col: 386
+value: +" fillcolor=white style=filled]
+	170 -> 178
+	177 [label=T fillcolor=white style=filled]
+	170 -> 177
+	180 [label=FH fillcolor=white style=filled]
+	177 -> 180
+	182 [label="ID
+line: 21
+col: 388
+value: b" fillcolor=white style=filled]
+	180 -> 182
+	181 [label=FN fillcolor=white style=filled]
+	180 -> 181
+	179 [label="T'" fillcolor=white style=filled]
+	177 -> 179
+	176 [label="E'" fillcolor=white style=filled]
+	170 -> 176
+	165 [label="PUNTO_COMA
+line: 21
+col: 389
+value: ;" fillcolor=white style=filled]
+	164 -> 165
+	163 [label=Sentencias fillcolor=white style=filled]
+	137 -> 163
+	184 [label=sentencia fillcolor=white style=filled]
+	163 -> 184
+	186 [label=Asig_varibles fillcolor=white style=filled]
+	184 -> 186
+	189 [label="ID
+line: 22
+col: 403
+value: a" fillcolor=white style=filled]
+	186 -> 189
+	188 [label="IGUAL
+line: 22
+col: 405
+value: =" fillcolor=white style=filled]
+	186 -> 188
+	187 [label=E fillcolor=white style=filled]
+	186 -> 187
+	191 [label=T fillcolor=white style=filled]
+	187 -> 191
+	193 [label=FH fillcolor=white style=filled]
+	191 -> 193
+	195 [label="ID
+line: 22
+col: 407
+value: b" fillcolor=white style=filled]
+	193 -> 195
+	194 [label=FN fillcolor=white style=filled]
+	193 -> 194
+	192 [label="T'" fillcolor=white style=filled]
+	191 -> 192
+	190 [label="E'" fillcolor=white style=filled]
+	187 -> 190
+	185 [label="PUNTO_COMA
+line: 22
+col: 408
+value: ;" fillcolor=white style=filled]
+	184 -> 185
+	183 [label=Sentencias fillcolor=white style=filled]
+	163 -> 183
+	197 [label=sentencia fillcolor=white style=filled]
+	183 -> 197
+	199 [label=Asig_varibles fillcolor=white style=filled]
+	197 -> 199
+	202 [label="ID
+line: 23
+col: 422
+value: b" fillcolor=white style=filled]
+	199 -> 202
+	201 [label="IGUAL
+line: 23
+col: 424
+value: =" fillcolor=white style=filled]
+	199 -> 201
+	200 [label=E fillcolor=white style=filled]
+	199 -> 200
+	204 [label=T fillcolor=white style=filled]
+	200 -> 204
+	206 [label=FH fillcolor=white style=filled]
+	204 -> 206
+	208 [label="ID
+line: 23
+col: 426
+value: resultado" fillcolor=white style=filled]
+	206 -> 208
+	207 [label=FN fillcolor=white style=filled]
+	206 -> 207
+	205 [label="T'" fillcolor=white style=filled]
+	204 -> 205
+	203 [label="E'" fillcolor=white style=filled]
+	200 -> 203
+	198 [label="PUNTO_COMA
+line: 23
+col: 435
+value: ;" fillcolor=white style=filled]
+	197 -> 198
+	196 [label=Sentencias fillcolor=white style=filled]
+	183 -> 196
+	136 [label="LLAVE_CERRADO
+line: 28
+col: 478
+value: }" fillcolor=white style=filled]
+	135 -> 136
+	134 [label=Sentencias fillcolor=white style=filled]
+	118 -> 134
+	98 [label="LLAVE_CERRADO
+line: 25
+col: 451
+value: }" fillcolor=white style=filled]
+	69 -> 98
+	38 [label=Sentencias fillcolor=white style=filled]
+	22 -> 38
+	6 [label=RTN fillcolor=white style=filled]
+	3 -> 6
+	211 [label="RETURN
+line: 27
+col: 458
+value: devolver" fillcolor=white style=filled]
+	6 -> 211
+	210 [label=E fillcolor=white style=filled]
+	6 -> 210
+	213 [label=T fillcolor=white style=filled]
+	210 -> 213
+	215 [label=FH fillcolor=white style=filled]
+	213 -> 215
+	217 [label="ID
+line: 27
+col: 467
+value: resultado" fillcolor=white style=filled]
+	215 -> 217
+	216 [label=FN fillcolor=white style=filled]
+	215 -> 216
+	214 [label="T'" fillcolor=white style=filled]
+	213 -> 214
+	212 [label="E'" fillcolor=white style=filled]
+	210 -> 212
+	209 [label="PUNTO_COMA
+line: 27
+col: 476
+value: ;" fillcolor=white style=filled]
+	6 -> 209
+	5 [label="LLAVE_CERRADO
+line: 9
+col: 166
+value: }" fillcolor=white style=filled]
+	3 -> 5
+	4 [label=PROGRAMA fillcolor=white style=filled]
+	3 -> 4
+	218 [label=FUNCTION fillcolor=white style=filled]
+	4 -> 218
+	229 [label=Q fillcolor=white style=filled]
+	218 -> 229
+	230 [label=type fillcolor=white style=filled]
+	229 -> 230
+	231 [label="TYPE_INT
+line: 32
+col: 504
+value: entero" fillcolor=white style=filled]
+	230 -> 231
+	228 [label="FUNCION
+line: 32
+col: 511
+value: funcion" fillcolor=white style=filled]
+	218 -> 228
+	227 [label="ID
+line: 32
+col: 519
+value: principal" fillcolor=white style=filled]
+	218 -> 227
+	226 [label="PARENTESIS_ABIERTO
+line: 32
+col: 528
+value: (" fillcolor=white style=filled]
+	218 -> 226
+	225 [label=TI fillcolor=white style=filled]
+	218 -> 225
+	224 [label="PARENTESIS_CERRADO
+line: 32
+col: 529
+value: )" fillcolor=white style=filled]
+	218 -> 224
+	223 [label="LLAVE_ABIERTO
+line: 33
+col: 531
+value: {" fillcolor=white style=filled]
+	218 -> 223
+	222 [label=Sentencias fillcolor=white style=filled]
+	218 -> 222
+	233 [label=sentencia fillcolor=white style=filled]
+	222 -> 233
+	235 [label=Crear_variables fillcolor=white style=filled]
+	233 -> 235
+	238 [label=Q fillcolor=white style=filled]
+	235 -> 238
+	239 [label=type fillcolor=white style=filled]
+	238 -> 239
+	240 [label="TYPE_INT
+line: 35
+col: 578
+value: entero" fillcolor=white style=filled]
+	239 -> 240
+	237 [label="ID
+line: 35
+col: 585
+value: variable_local" fillcolor=white style=filled]
+	235 -> 237
+	236 [label=Z fillcolor=white style=filled]
+	235 -> 236
+	242 [label="IGUAL
+line: 35
+col: 600
+value: =" fillcolor=white style=filled]
+	236 -> 242
+	241 [label=E fillcolor=white style=filled]
+	236 -> 241
+	244 [label=T fillcolor=white style=filled]
+	241 -> 244
+	246 [label=FH fillcolor=white style=filled]
+	244 -> 246
+	247 [label="NUMERO
+line: 35
+col: 602
+value: 5" fillcolor=white style=filled]
+	246 -> 247
+	245 [label="T'" fillcolor=white style=filled]
+	244 -> 245
+	243 [label="E'" fillcolor=white style=filled]
+	241 -> 243
+	234 [label="PUNTO_COMA
+line: 35
+col: 603
+value: ;" fillcolor=white style=filled]
+	233 -> 234
+	232 [label=Sentencias fillcolor=white style=filled]
+	222 -> 232
+	249 [label=sentencia fillcolor=white style=filled]
+	232 -> 249
+	251 [label=Crear_variables fillcolor=white style=filled]
+	249 -> 251
+	254 [label=Q fillcolor=white style=filled]
+	251 -> 254
+	255 [label=type fillcolor=white style=filled]
+	254 -> 255
+	256 [label="TYPE_FLOAT
+line: 37
+col: 638
+value: decimal" fillcolor=white style=filled]
+	255 -> 256
+	253 [label="ID
+line: 37
+col: 646
+value: variable_decimal" fillcolor=white style=filled]
+	251 -> 253
+	252 [label=Z fillcolor=white style=filled]
+	251 -> 252
+	258 [label="IGUAL
+line: 37
+col: 663
+value: =" fillcolor=white style=filled]
+	252 -> 258
+	257 [label=E fillcolor=white style=filled]
+	252 -> 257
+	260 [label=T fillcolor=white style=filled]
+	257 -> 260
+	262 [label=FH fillcolor=white style=filled]
+	260 -> 262
+	263 [label="DECIMAL
+line: 37
+col: 665
+value: 3.14" fillcolor=white style=filled]
+	262 -> 263
+	261 [label="T'" fillcolor=white style=filled]
+	260 -> 261
+	259 [label="E'" fillcolor=white style=filled]
+	257 -> 259
+	250 [label="PUNTO_COMA
+line: 37
+col: 669
+value: ;" fillcolor=white style=filled]
+	249 -> 250
+	248 [label=Sentencias fillcolor=white style=filled]
+	232 -> 248
+	265 [label=sentencia fillcolor=white style=filled]
+	248 -> 265
+	267 [label=Crear_variables fillcolor=white style=filled]
+	265 -> 267
+	270 [label=Q fillcolor=white style=filled]
+	267 -> 270
+	271 [label=type fillcolor=white style=filled]
+	270 -> 271
+	272 [label="TYPE_STRING
+line: 38
+col: 675
+value: texto" fillcolor=white style=filled]
+	271 -> 272
+	269 [label="ID
+line: 38
+col: 681
+value: variable_texto" fillcolor=white style=filled]
+	267 -> 269
+	268 [label=Z fillcolor=white style=filled]
+	267 -> 268
+	274 [label="IGUAL
+line: 38
+col: 696
+value: =" fillcolor=white style=filled]
+	268 -> 274
+	273 [label=E fillcolor=white style=filled]
+	268 -> 273
+	275 [label="CADENA
+line: 38
+col: 698
+value: Hola, Leo!" fillcolor=white style=filled]
+	273 -> 275
+	266 [label="PUNTO_COMA
+line: 38
+col: 710
+value: ;" fillcolor=white style=filled]
+	265 -> 266
+	264 [label=Sentencias fillcolor=white style=filled]
+	248 -> 264
+	277 [label=sentencia fillcolor=white style=filled]
+	264 -> 277
+	279 [label=Crear_variables fillcolor=white style=filled]
+	277 -> 279
+	282 [label=Q fillcolor=white style=filled]
+	279 -> 282
+	283 [label=type fillcolor=white style=filled]
+	282 -> 283
+	284 [label="TYPE_BOOL
+line: 39
+col: 716
+value: boleano" fillcolor=white style=filled]
+	283 -> 284
+	281 [label="ID
+line: 39
+col: 724
+value: variable_booleana" fillcolor=white style=filled]
+	279 -> 281
+	280 [label=Z fillcolor=white style=filled]
+	279 -> 280
+	286 [label="IGUAL
+line: 39
+col: 742
+value: =" fillcolor=white style=filled]
+	280 -> 286
+	285 [label=E fillcolor=white style=filled]
+	280 -> 285
+	288 [label=T fillcolor=white style=filled]
+	285 -> 288
+	290 [label=FH fillcolor=white style=filled]
+	288 -> 290
+	292 [label="ID
+line: 39
+col: 744
+value: verdadero" fillcolor=white style=filled]
+	290 -> 292
+	291 [label=FN fillcolor=white style=filled]
+	290 -> 291
+	289 [label="T'" fillcolor=white style=filled]
+	288 -> 289
+	287 [label="E'" fillcolor=white style=filled]
+	285 -> 287
+	278 [label="PUNTO_COMA
+line: 39
+col: 753
+value: ;" fillcolor=white style=filled]
+	277 -> 278
+	276 [label=Sentencias fillcolor=white style=filled]
+	264 -> 276
+	294 [label=sentencia fillcolor=white style=filled]
+	276 -> 294
+	300 [label="IF
+line: 42
+col: 794
+value: si" fillcolor=white style=filled]
+	294 -> 300
+	299 [label=CONDITIONAL fillcolor=white style=filled]
+	294 -> 299
+	303 [label="PARENTESIS_ABIERTO
+line: 42
+col: 797
+value: (" fillcolor=white style=filled]
+	299 -> 303
+	302 [label=H fillcolor=white style=filled]
+	299 -> 302
+	307 [label="F'" fillcolor=white style=filled]
+	302 -> 307
+	309 [label="ID
+line: 42
+col: 798
+value: variable_local" fillcolor=white style=filled]
+	307 -> 309
+	308 [label=FN fillcolor=white style=filled]
+	307 -> 308
+	306 [label=F fillcolor=white style=filled]
+	302 -> 306
+	310 [label="MAYOR
+line: 42
+col: 813
+value: >" fillcolor=white style=filled]
+	306 -> 310
+	305 [label="F'" fillcolor=white style=filled]
+	302 -> 305
+	311 [label="NUMERO
+line: 42
+col: 815
+value: 0" fillcolor=white style=filled]
+	305 -> 311
+	304 [label=R fillcolor=white style=filled]
+	302 -> 304
+	301 [label="PARENTESIS_CERRADO
+line: 42
+col: 816
+value: )" fillcolor=white style=filled]
+	299 -> 301
+	298 [label="LLAVE_ABIERTO
+line: 43
+col: 823
+value: {" fillcolor=white style=filled]
+	294 -> 298
+	297 [label=Sentencias fillcolor=white style=filled]
+	294 -> 297
+	313 [label=sentencia fillcolor=white style=filled]
+	297 -> 313
+	316 [label="PRINT
+line: 44
+col: 833
+value: imprimir" fillcolor=white style=filled]
+	313 -> 316
+	315 [label=STRING_CONSOLE fillcolor=white style=filled]
+	313 -> 315
+	319 [label="PARENTESIS_ABIERTO
+line: 44
+col: 841
+value: (" fillcolor=white style=filled]
+	315 -> 319
+	318 [label=TX fillcolor=white style=filled]
+	315 -> 318
+	321 [label="CADENA
+line: 44
+col: 842
+value: La variable_local es positiva" fillcolor=white style=filled]
+	318 -> 321
+	320 [label=RX fillcolor=white style=filled]
+	318 -> 320
+	317 [label="PARENTESIS_CERRADO
+line: 44
+col: 873
+value: )" fillcolor=white style=filled]
+	315 -> 317
+	314 [label="PUNTO_COMA
+line: 44
+col: 874
+value: ;" fillcolor=white style=filled]
+	313 -> 314
+	312 [label=Sentencias fillcolor=white style=filled]
+	297 -> 312
+	296 [label="LLAVE_CERRADO
+line: 49
+col: 982
+value: }" fillcolor=white style=filled]
+	294 -> 296
+	295 [label=ELS fillcolor=white style=filled]
+	294 -> 295
+	327 [label="ELSEIF
+line: 46
+col: 887
+value: contrariosi" fillcolor=white style=filled]
+	295 -> 327
+	326 [label=CONDITIONAL fillcolor=white style=filled]
+	295 -> 326
+	330 [label="PARENTESIS_ABIERTO
+line: 46
+col: 899
+value: (" fillcolor=white style=filled]
+	326 -> 330
+	329 [label=H fillcolor=white style=filled]
+	326 -> 329
+	334 [label="F'" fillcolor=white style=filled]
+	329 -> 334
+	336 [label="ID
+line: 46
+col: 900
+value: variable_local" fillcolor=white style=filled]
+	334 -> 336
+	335 [label=FN fillcolor=white style=filled]
+	334 -> 335
+	333 [label=F fillcolor=white style=filled]
+	329 -> 333
+	337 [label="MENOR
+line: 46
+col: 915
+value: <" fillcolor=white style=filled]
+	333 -> 337
+	332 [label="F'" fillcolor=white style=filled]
+	329 -> 332
+	338 [label="NUMERO
+line: 46
+col: 917
+value: 0" fillcolor=white style=filled]
+	332 -> 338
+	331 [label=R fillcolor=white style=filled]
+	329 -> 331
+	328 [label="PARENTESIS_CERRADO
+line: 46
+col: 918
+value: )" fillcolor=white style=filled]
+	326 -> 328
+	325 [label="LLAVE_ABIERTO
+line: 47
+col: 925
+value: {" fillcolor=white style=filled]
+	295 -> 325
+	324 [label=Sentencias fillcolor=white style=filled]
+	295 -> 324
+	340 [label=sentencia fillcolor=white style=filled]
+	324 -> 340
+	343 [label="PRINT
+line: 48
+col: 935
+value: imprimir" fillcolor=white style=filled]
+	340 -> 343
+	342 [label=STRING_CONSOLE fillcolor=white style=filled]
+	340 -> 342
+	346 [label="PARENTESIS_ABIERTO
+line: 48
+col: 943
+value: (" fillcolor=white style=filled]
+	342 -> 346
+	345 [label=TX fillcolor=white style=filled]
+	342 -> 345
+	348 [label="CADENA
+line: 48
+col: 944
+value: La variable_local es negativa" fillcolor=white style=filled]
+	345 -> 348
+	347 [label=RX fillcolor=white style=filled]
+	345 -> 347
+	344 [label="PARENTESIS_CERRADO
+line: 48
+col: 975
+value: )" fillcolor=white style=filled]
+	342 -> 344
+	341 [label="PUNTO_COMA
+line: 48
+col: 976
+value: ;" fillcolor=white style=filled]
+	340 -> 341
+	339 [label=Sentencias fillcolor=white style=filled]
+	324 -> 339
+	323 [label="LLAVE_CERRADO
+line: 53
+col: 1057
+value: }" fillcolor=white style=filled]
+	295 -> 323
+	322 [label=ELS fillcolor=white style=filled]
+	295 -> 322
+	352 [label="ELSE
+line: 50
+col: 989
+value: contrario" fillcolor=white style=filled]
+	322 -> 352
+	351 [label="LLAVE_ABIERTO
+line: 51
+col: 1004
+value: {" fillcolor=white style=filled]
+	322 -> 351
+	350 [label=Sentencias fillcolor=white style=filled]
+	322 -> 350
+	354 [label=sentencia fillcolor=white style=filled]
+	350 -> 354
+	357 [label="PRINT
+line: 52
+col: 1014
+value: imprimir" fillcolor=white style=filled]
+	354 -> 357
+	356 [label=STRING_CONSOLE fillcolor=white style=filled]
+	354 -> 356
+	360 [label="PARENTESIS_ABIERTO
+line: 52
+col: 1022
+value: (" fillcolor=white style=filled]
+	356 -> 360
+	359 [label=TX fillcolor=white style=filled]
+	356 -> 359
+	362 [label="CADENA
+line: 52
+col: 1023
+value: La variable_local es cero" fillcolor=white style=filled]
+	359 -> 362
+	361 [label=RX fillcolor=white style=filled]
+	359 -> 361
+	358 [label="PARENTESIS_CERRADO
+line: 52
+col: 1050
+value: )" fillcolor=white style=filled]
+	356 -> 358
+	355 [label="PUNTO_COMA
+line: 52
+col: 1051
+value: ;" fillcolor=white style=filled]
+	354 -> 355
+	353 [label=Sentencias fillcolor=white style=filled]
+	350 -> 353
+	349 [label="LLAVE_CERRADO
+line: 59
+col: 1226
+value: }" fillcolor=white style=filled]
+	322 -> 349
+	293 [label=Sentencias fillcolor=white style=filled]
+	276 -> 293
+	364 [label=sentencia fillcolor=white style=filled]
+	293 -> 364
+	369 [label="BUCLE_WHILE
+line: 55
+col: 1064
+value: mientras" fillcolor=white style=filled]
+	364 -> 369
+	368 [label=CONDITIONAL fillcolor=white style=filled]
+	364 -> 368
+	372 [label="PARENTESIS_ABIERTO
+line: 55
+col: 1073
+value: (" fillcolor=white style=filled]
+	368 -> 372
+	371 [label=H fillcolor=white style=filled]
+	368 -> 371
+	376 [label="F'" fillcolor=white style=filled]
+	371 -> 376
+	378 [label="ID
+line: 55
+col: 1074
+value: variable_local" fillcolor=white style=filled]
+	376 -> 378
+	377 [label=FN fillcolor=white style=filled]
+	376 -> 377
+	375 [label=F fillcolor=white style=filled]
+	371 -> 375
+	379 [label="MAYOR
+line: 55
+col: 1089
+value: >" fillcolor=white style=filled]
+	375 -> 379
+	374 [label="F'" fillcolor=white style=filled]
+	371 -> 374
+	380 [label="NUMERO
+line: 55
+col: 1091
+value: 0" fillcolor=white style=filled]
+	374 -> 380
+	373 [label=R fillcolor=white style=filled]
+	371 -> 373
+	370 [label="PARENTESIS_CERRADO
+line: 55
+col: 1092
+value: )" fillcolor=white style=filled]
+	368 -> 370
+	367 [label="LLAVE_ABIERTO
+line: 56
+col: 1099
+value: {" fillcolor=white style=filled]
+	364 -> 367
+	366 [label=Sentencias fillcolor=white style=filled]
+	364 -> 366
+	382 [label=sentencia fillcolor=white style=filled]
+	366 -> 382
+	385 [label="PRINT
+line: 57
+col: 1109
+value: imprimir" fillcolor=white style=filled]
+	382 -> 385
+	384 [label=STRING_CONSOLE fillcolor=white style=filled]
+	382 -> 384
+	388 [label="PARENTESIS_ABIERTO
+line: 57
+col: 1117
+value: (" fillcolor=white style=filled]
+	384 -> 388
+	387 [label=TX fillcolor=white style=filled]
+	384 -> 387
+	390 [label="CADENA
+line: 57
+col: 1118
+value: En el bucle mientras. Variable_local: " fillcolor=white style=filled]
+	387 -> 390
+	389 [label=RX fillcolor=white style=filled]
+	387 -> 389
+	392 [label="COMA
+line: 57
+col: 1158
+value: ," fillcolor=white style=filled]
+	389 -> 392
+	391 [label=TX fillcolor=white style=filled]
+	389 -> 391
+	394 [label="ID
+line: 57
+col: 1160
+value: variable_local" fillcolor=white style=filled]
+	391 -> 394
+	393 [label=RX fillcolor=white style=filled]
+	391 -> 393
+	386 [label="PARENTESIS_CERRADO
+line: 57
+col: 1174
+value: )" fillcolor=white style=filled]
+	384 -> 386
+	383 [label="PUNTO_COMA
+line: 57
+col: 1175
+value: ;" fillcolor=white style=filled]
+	382 -> 383
+	381 [label=Sentencias fillcolor=white style=filled]
+	366 -> 381
+	396 [label=sentencia fillcolor=white style=filled]
+	381 -> 396
+	398 [label=Asig_varibles fillcolor=white style=filled]
+	396 -> 398
+	401 [label="ID
+line: 58
+col: 1185
+value: variable_local" fillcolor=white style=filled]
+	398 -> 401
+	400 [label="IGUAL
+line: 58
+col: 1200
+value: =" fillcolor=white style=filled]
+	398 -> 400
+	399 [label=E fillcolor=white style=filled]
+	398 -> 399
+	403 [label=T fillcolor=white style=filled]
+	399 -> 403
+	405 [label=FH fillcolor=white style=filled]
+	403 -> 405
+	407 [label="ID
+line: 58
+col: 1202
+value: variable_local" fillcolor=white style=filled]
+	405 -> 407
+	406 [label=FN fillcolor=white style=filled]
+	405 -> 406
+	404 [label="T'" fillcolor=white style=filled]
+	403 -> 404
+	402 [label="E'" fillcolor=white style=filled]
+	399 -> 402
+	410 [label="RESTA
+line: 58
+col: 1217
+value: -" fillcolor=white style=filled]
+	402 -> 410
+	409 [label=T fillcolor=white style=filled]
+	402 -> 409
+	412 [label=FH fillcolor=white style=filled]
+	409 -> 412
+	413 [label="NUMERO
+line: 58
+col: 1219
+value: 1" fillcolor=white style=filled]
+	412 -> 413
+	411 [label="T'" fillcolor=white style=filled]
+	409 -> 411
+	408 [label="E'" fillcolor=white style=filled]
+	402 -> 408
+	397 [label="PUNTO_COMA
+line: 58
+col: 1220
+value: ;" fillcolor=white style=filled]
+	396 -> 397
+	395 [label=Sentencias fillcolor=white style=filled]
+	381 -> 395
+	365 [label="LLAVE_CERRADO
+line: 67
+col: 1397
+value: }" fillcolor=white style=filled]
+	364 -> 365
+	363 [label=Sentencias fillcolor=white style=filled]
+	293 -> 363
+	415 [label=sentencia fillcolor=white style=filled]
+	363 -> 415
+	417 [label=Asig_varibles fillcolor=white style=filled]
+	415 -> 417
+	420 [label="ID
+line: 61
+col: 1233
+value: variable_local" fillcolor=white style=filled]
+	417 -> 420
+	419 [label="IGUAL
+line: 61
+col: 1248
+value: =" fillcolor=white style=filled]
+	417 -> 419
+	418 [label=E fillcolor=white style=filled]
+	417 -> 418
+	422 [label=T fillcolor=white style=filled]
+	418 -> 422
+	424 [label=FH fillcolor=white style=filled]
+	422 -> 424
+	425 [label="NUMERO
+line: 61
+col: 1250
+value: 5" fillcolor=white style=filled]
+	424 -> 425
+	423 [label="T'" fillcolor=white style=filled]
+	422 -> 423
+	421 [label="E'" fillcolor=white style=filled]
+	418 -> 421
+	416 [label="PUNTO_COMA
+line: 61
+col: 1251
+value: ;" fillcolor=white style=filled]
+	415 -> 416
+	414 [label=Sentencias fillcolor=white style=filled]
+	363 -> 414
+	427 [label=sentencia fillcolor=white style=filled]
+	414 -> 427
+	433 [label="BUCLE_DO
+line: 63
+col: 1258
+value: repetir" fillcolor=white style=filled]
+	427 -> 433
+	432 [label="LLAVE_ABIERTO
+line: 64
+col: 1271
+value: {" fillcolor=white style=filled]
+	427 -> 432
+	431 [label=Sentencias fillcolor=white style=filled]
+	427 -> 431
+	435 [label=sentencia fillcolor=white style=filled]
+	431 -> 435
+	438 [label="PRINT
+line: 65
+col: 1281
+value: imprimir" fillcolor=white style=filled]
+	435 -> 438
+	437 [label=STRING_CONSOLE fillcolor=white style=filled]
+	435 -> 437
+	441 [label="PARENTESIS_ABIERTO
+line: 65
+col: 1289
+value: (" fillcolor=white style=filled]
+	437 -> 441
+	440 [label=TX fillcolor=white style=filled]
+	437 -> 440
+	443 [label="CADENA
+line: 65
+col: 1290
+value: En el bucle repetir. Variable_local: " fillcolor=white style=filled]
+	440 -> 443
+	442 [label=RX fillcolor=white style=filled]
+	440 -> 442
+	445 [label="COMA
+line: 65
+col: 1329
+value: ," fillcolor=white style=filled]
+	442 -> 445
+	444 [label=TX fillcolor=white style=filled]
+	442 -> 444
+	447 [label="ID
+line: 65
+col: 1331
+value: variable_local" fillcolor=white style=filled]
+	444 -> 447
+	446 [label=RX fillcolor=white style=filled]
+	444 -> 446
+	439 [label="PARENTESIS_CERRADO
+line: 65
+col: 1345
+value: )" fillcolor=white style=filled]
+	437 -> 439
+	436 [label="PUNTO_COMA
+line: 65
+col: 1346
+value: ;" fillcolor=white style=filled]
+	435 -> 436
+	434 [label=Sentencias fillcolor=white style=filled]
+	431 -> 434
+	449 [label=sentencia fillcolor=white style=filled]
+	434 -> 449
+	451 [label=Asig_varibles fillcolor=white style=filled]
+	449 -> 451
+	454 [label="ID
+line: 66
+col: 1356
+value: variable_local" fillcolor=white style=filled]
+	451 -> 454
+	453 [label="IGUAL
+line: 66
+col: 1371
+value: =" fillcolor=white style=filled]
+	451 -> 453
+	452 [label=E fillcolor=white style=filled]
+	451 -> 452
+	456 [label=T fillcolor=white style=filled]
+	452 -> 456
+	458 [label=FH fillcolor=white style=filled]
+	456 -> 458
+	460 [label="ID
+line: 66
+col: 1373
+value: variable_local" fillcolor=white style=filled]
+	458 -> 460
+	459 [label=FN fillcolor=white style=filled]
+	458 -> 459
+	457 [label="T'" fillcolor=white style=filled]
+	456 -> 457
+	455 [label="E'" fillcolor=white style=filled]
+	452 -> 455
+	463 [label="RESTA
+line: 66
+col: 1388
+value: -" fillcolor=white style=filled]
+	455 -> 463
+	462 [label=T fillcolor=white style=filled]
+	455 -> 462
+	465 [label=FH fillcolor=white style=filled]
+	462 -> 465
+	466 [label="NUMERO
+line: 66
+col: 1390
+value: 1" fillcolor=white style=filled]
+	465 -> 466
+	464 [label="T'" fillcolor=white style=filled]
+	462 -> 464
+	461 [label="E'" fillcolor=white style=filled]
+	455 -> 461
+	450 [label="PUNTO_COMA
+line: 66
+col: 1391
+value: ;" fillcolor=white style=filled]
+	449 -> 450
+	448 [label=Sentencias fillcolor=white style=filled]
+	434 -> 448
+	430 [label="LLAVE_CERRADO
+line: 90
+col: 2256
+value: }" fillcolor=white style=filled]
+	427 -> 430
+	429 [label="UNTIL
+line: 67
+col: 1399
+value: hastaque" fillcolor=white style=filled]
+	427 -> 429
+	428 [label=CONDITIONAL fillcolor=white style=filled]
+	427 -> 428
+	469 [label="PARENTESIS_ABIERTO
+line: 67
+col: 1408
+value: (" fillcolor=white style=filled]
+	428 -> 469
+	468 [label=H fillcolor=white style=filled]
+	428 -> 468
+	473 [label="F'" fillcolor=white style=filled]
+	468 -> 473
+	475 [label="ID
+line: 67
+col: 1409
+value: variable_local" fillcolor=white style=filled]
+	473 -> 475
+	474 [label=FN fillcolor=white style=filled]
+	473 -> 474
+	472 [label=F fillcolor=white style=filled]
+	468 -> 472
+	476 [label="MENOR_IGUAL
+line: 67
+col: 1424
+value: <=" fillcolor=white style=filled]
+	472 -> 476
+	471 [label="F'" fillcolor=white style=filled]
+	468 -> 471
+	477 [label="NUMERO
+line: 67
+col: 1427
+value: 0" fillcolor=white style=filled]
+	471 -> 477
+	470 [label=R fillcolor=white style=filled]
+	468 -> 470
+	467 [label="PARENTESIS_CERRADO
+line: 67
+col: 1428
+value: )" fillcolor=white style=filled]
+	428 -> 467
+	426 [label=Sentencias fillcolor=white style=filled]
+	414 -> 426
+	479 [label=sentencia fillcolor=white style=filled]
+	426 -> 479
+	481 [label=Crear_variables fillcolor=white style=filled]
+	479 -> 481
+	484 [label=Q fillcolor=white style=filled]
+	481 -> 484
+	485 [label=type fillcolor=white style=filled]
+	484 -> 485
+	486 [label="TYPE_INT
+line: 70
+col: 1467
+value: entero" fillcolor=white style=filled]
+	485 -> 486
+	483 [label="ID
+line: 70
+col: 1474
+value: resultado_suma" fillcolor=white style=filled]
+	481 -> 483
+	482 [label=Z fillcolor=white style=filled]
+	481 -> 482
+	488 [label="IGUAL
+line: 70
+col: 1489
+value: =" fillcolor=white style=filled]
+	482 -> 488
+	487 [label=E fillcolor=white style=filled]
+	482 -> 487
+	490 [label=T fillcolor=white style=filled]
+	487 -> 490
+	492 [label=FH fillcolor=white style=filled]
+	490 -> 492
+	494 [label="ID
+line: 70
+col: 1491
+value: variable_local" fillcolor=white style=filled]
+	492 -> 494
+	493 [label=FN fillcolor=white style=filled]
+	492 -> 493
+	491 [label="T'" fillcolor=white style=filled]
+	490 -> 491
+	489 [label="E'" fillcolor=white style=filled]
+	487 -> 489
+	497 [label="SUMA
+line: 70
+col: 1506
+value: +" fillcolor=white style=filled]
+	489 -> 497
+	496 [label=T fillcolor=white style=filled]
+	489 -> 496
+	499 [label=FH fillcolor=white style=filled]
+	496 -> 499
+	500 [label="NUMERO
+line: 70
+col: 1508
+value: 10" fillcolor=white style=filled]
+	499 -> 500
+	498 [label="T'" fillcolor=white style=filled]
+	496 -> 498
+	495 [label="E'" fillcolor=white style=filled]
+	489 -> 495
+	480 [label="PUNTO_COMA
+line: 70
+col: 1510
+value: ;" fillcolor=white style=filled]
+	479 -> 480
+	478 [label=Sentencias fillcolor=white style=filled]
+	426 -> 478
+	502 [label=sentencia fillcolor=white style=filled]
+	478 -> 502
+	504 [label=Crear_variables fillcolor=white style=filled]
+	502 -> 504
+	507 [label=Q fillcolor=white style=filled]
+	504 -> 507
+	508 [label=type fillcolor=white style=filled]
+	507 -> 508
+	509 [label="TYPE_INT
+line: 71
+col: 1516
+value: entero" fillcolor=white style=filled]
+	508 -> 509
+	506 [label="ID
+line: 71
+col: 1523
+value: resultado_resta" fillcolor=white style=filled]
+	504 -> 506
+	505 [label=Z fillcolor=white style=filled]
+	504 -> 505
+	511 [label="IGUAL
+line: 71
+col: 1539
+value: =" fillcolor=white style=filled]
+	505 -> 511
+	510 [label=E fillcolor=white style=filled]
+	505 -> 510
+	513 [label=T fillcolor=white style=filled]
+	510 -> 513
+	515 [label=FH fillcolor=white style=filled]
+	513 -> 515
+	517 [label="ID
+line: 71
+col: 1541
+value: variable_local" fillcolor=white style=filled]
+	515 -> 517
+	516 [label=FN fillcolor=white style=filled]
+	515 -> 516
+	514 [label="T'" fillcolor=white style=filled]
+	513 -> 514
+	512 [label="E'" fillcolor=white style=filled]
+	510 -> 512
+	520 [label="RESTA
+line: 71
+col: 1556
+value: -" fillcolor=white style=filled]
+	512 -> 520
+	519 [label=T fillcolor=white style=filled]
+	512 -> 519
+	522 [label=FH fillcolor=white style=filled]
+	519 -> 522
+	523 [label="NUMERO
+line: 71
+col: 1558
+value: 2" fillcolor=white style=filled]
+	522 -> 523
+	521 [label="T'" fillcolor=white style=filled]
+	519 -> 521
+	518 [label="E'" fillcolor=white style=filled]
+	512 -> 518
+	503 [label="PUNTO_COMA
+line: 71
+col: 1559
+value: ;" fillcolor=white style=filled]
+	502 -> 503
+	501 [label=Sentencias fillcolor=white style=filled]
+	478 -> 501
+	525 [label=sentencia fillcolor=white style=filled]
+	501 -> 525
+	527 [label=Crear_variables fillcolor=white style=filled]
+	525 -> 527
+	530 [label=Q fillcolor=white style=filled]
+	527 -> 530
+	531 [label=type fillcolor=white style=filled]
+	530 -> 531
+	532 [label="TYPE_INT
+line: 72
+col: 1565
+value: entero" fillcolor=white style=filled]
+	531 -> 532
+	529 [label="ID
+line: 72
+col: 1572
+value: resultado_mult" fillcolor=white style=filled]
+	527 -> 529
+	528 [label=Z fillcolor=white style=filled]
+	527 -> 528
+	534 [label="IGUAL
+line: 72
+col: 1587
+value: =" fillcolor=white style=filled]
+	528 -> 534
+	533 [label=E fillcolor=white style=filled]
+	528 -> 533
+	536 [label=T fillcolor=white style=filled]
+	533 -> 536
+	538 [label=FH fillcolor=white style=filled]
+	536 -> 538
+	540 [label="ID
+line: 72
+col: 1589
+value: variable_local" fillcolor=white style=filled]
+	538 -> 540
+	539 [label=FN fillcolor=white style=filled]
+	538 -> 539
+	537 [label="T'" fillcolor=white style=filled]
+	536 -> 537
+	543 [label="MULTIPLICAR
+line: 72
+col: 1604
+value: *" fillcolor=white style=filled]
+	537 -> 543
+	542 [label=FH fillcolor=white style=filled]
+	537 -> 542
+	544 [label="NUMERO
+line: 72
+col: 1606
+value: 3" fillcolor=white style=filled]
+	542 -> 544
+	541 [label="T'" fillcolor=white style=filled]
+	537 -> 541
+	535 [label="E'" fillcolor=white style=filled]
+	533 -> 535
+	526 [label="PUNTO_COMA
+line: 72
+col: 1607
+value: ;" fillcolor=white style=filled]
+	525 -> 526
+	524 [label=Sentencias fillcolor=white style=filled]
+	501 -> 524
+	546 [label=sentencia fillcolor=white style=filled]
+	524 -> 546
+	548 [label=Crear_variables fillcolor=white style=filled]
+	546 -> 548
+	551 [label=Q fillcolor=white style=filled]
+	548 -> 551
+	552 [label=type fillcolor=white style=filled]
+	551 -> 552
+	553 [label="TYPE_INT
+line: 73
+col: 1613
+value: entero" fillcolor=white style=filled]
+	552 -> 553
+	550 [label="ID
+line: 73
+col: 1620
+value: resultado_div" fillcolor=white style=filled]
+	548 -> 550
+	549 [label=Z fillcolor=white style=filled]
+	548 -> 549
+	555 [label="IGUAL
+line: 73
+col: 1634
+value: =" fillcolor=white style=filled]
+	549 -> 555
+	554 [label=E fillcolor=white style=filled]
+	549 -> 554
+	557 [label=T fillcolor=white style=filled]
+	554 -> 557
+	559 [label=FH fillcolor=white style=filled]
+	557 -> 559
+	561 [label="ID
+line: 73
+col: 1636
+value: variable_local" fillcolor=white style=filled]
+	559 -> 561
+	560 [label=FN fillcolor=white style=filled]
+	559 -> 560
+	558 [label="T'" fillcolor=white style=filled]
+	557 -> 558
+	564 [label="DIVIDIR
+line: 73
+col: 1651
+value: /" fillcolor=white style=filled]
+	558 -> 564
+	563 [label=FH fillcolor=white style=filled]
+	558 -> 563
+	565 [label="NUMERO
+line: 73
+col: 1653
+value: 2" fillcolor=white style=filled]
+	563 -> 565
+	562 [label="T'" fillcolor=white style=filled]
+	558 -> 562
+	556 [label="E'" fillcolor=white style=filled]
+	554 -> 556
+	547 [label="PUNTO_COMA
+line: 73
+col: 1654
+value: ;" fillcolor=white style=filled]
+	546 -> 547
+	545 [label=Sentencias fillcolor=white style=filled]
+	524 -> 545
+	567 [label=sentencia fillcolor=white style=filled]
+	545 -> 567
+	569 [label=Crear_variables fillcolor=white style=filled]
+	567 -> 569
+	572 [label=Q fillcolor=white style=filled]
+	569 -> 572
+	573 [label=type fillcolor=white style=filled]
+	572 -> 573
+	574 [label="TYPE_INT
+line: 76
+col: 1691
+value: entero" fillcolor=white style=filled]
+	573 -> 574
+	571 [label="ID
+line: 76
+col: 1698
+value: resultado_fibonacci" fillcolor=white style=filled]
+	569 -> 571
+	570 [label=Z fillcolor=white style=filled]
+	569 -> 570
+	576 [label="IGUAL
+line: 76
+col: 1718
+value: =" fillcolor=white style=filled]
+	570 -> 576
+	575 [label=E fillcolor=white style=filled]
+	570 -> 575
+	578 [label=T fillcolor=white style=filled]
+	575 -> 578
+	580 [label=FH fillcolor=white style=filled]
+	578 -> 580
+	582 [label="ID
+line: 76
+col: 1720
+value: fibonacci" fillcolor=white style=filled]
+	580 -> 582
+	581 [label=FN fillcolor=white style=filled]
+	580 -> 581
+	585 [label="PARENTESIS_ABIERTO
+line: 76
+col: 1729
+value: (" fillcolor=white style=filled]
+	581 -> 585
+	584 [label=FC fillcolor=white style=filled]
+	581 -> 584
+	587 [label="F'" fillcolor=white style=filled]
+	584 -> 587
+	588 [label="NUMERO
+line: 76
+col: 1730
+value: 5" fillcolor=white style=filled]
+	587 -> 588
+	586 [label=CN fillcolor=white style=filled]
+	584 -> 586
+	583 [label="PARENTESIS_CERRADO
+line: 76
+col: 1731
+value: )" fillcolor=white style=filled]
+	581 -> 583
+	579 [label="T'" fillcolor=white style=filled]
+	578 -> 579
+	577 [label="E'" fillcolor=white style=filled]
+	575 -> 577
+	568 [label="PUNTO_COMA
+line: 76
+col: 1732
+value: ;" fillcolor=white style=filled]
+	567 -> 568
+	566 [label=Sentencias fillcolor=white style=filled]
+	545 -> 566
+	590 [label=sentencia fillcolor=white style=filled]
+	566 -> 590
+	593 [label="PRINT
+line: 79
+col: 1766
+value: imprimir" fillcolor=white style=filled]
+	590 -> 593
+	592 [label=STRING_CONSOLE fillcolor=white style=filled]
+	590 -> 592
+	596 [label="PARENTESIS_ABIERTO
+line: 79
+col: 1774
+value: (" fillcolor=white style=filled]
+	592 -> 596
+	595 [label=TX fillcolor=white style=filled]
+	592 -> 595
+	598 [label="CADENA
+line: 79
+col: 1775
+value: Variable Decimal: " fillcolor=white style=filled]
+	595 -> 598
+	597 [label=RX fillcolor=white style=filled]
+	595 -> 597
+	600 [label="COMA
+line: 79
+col: 1795
+value: ," fillcolor=white style=filled]
+	597 -> 600
+	599 [label=TX fillcolor=white style=filled]
+	597 -> 599
+	602 [label="ID
+line: 79
+col: 1797
+value: variable_decimal" fillcolor=white style=filled]
+	599 -> 602
+	601 [label=RX fillcolor=white style=filled]
+	599 -> 601
+	594 [label="PARENTESIS_CERRADO
+line: 79
+col: 1813
+value: )" fillcolor=white style=filled]
+	592 -> 594
+	591 [label="PUNTO_COMA
+line: 79
+col: 1814
+value: ;" fillcolor=white style=filled]
+	590 -> 591
+	589 [label=Sentencias fillcolor=white style=filled]
+	566 -> 589
+	604 [label=sentencia fillcolor=white style=filled]
+	589 -> 604
+	607 [label="PRINT
+line: 80
+col: 1820
+value: imprimir" fillcolor=white style=filled]
+	604 -> 607
+	606 [label=STRING_CONSOLE fillcolor=white style=filled]
+	604 -> 606
+	610 [label="PARENTESIS_ABIERTO
+line: 80
+col: 1828
+value: (" fillcolor=white style=filled]
+	606 -> 610
+	609 [label=TX fillcolor=white style=filled]
+	606 -> 609
+	612 [label="CADENA
+line: 80
+col: 1829
+value: Variable Texto: " fillcolor=white style=filled]
+	609 -> 612
+	611 [label=RX fillcolor=white style=filled]
+	609 -> 611
+	614 [label="COMA
+line: 80
+col: 1847
+value: ," fillcolor=white style=filled]
+	611 -> 614
+	613 [label=TX fillcolor=white style=filled]
+	611 -> 613
+	616 [label="ID
+line: 80
+col: 1849
+value: variable_texto" fillcolor=white style=filled]
+	613 -> 616
+	615 [label=RX fillcolor=white style=filled]
+	613 -> 615
+	608 [label="PARENTESIS_CERRADO
+line: 80
+col: 1863
+value: )" fillcolor=white style=filled]
+	606 -> 608
+	605 [label="PUNTO_COMA
+line: 80
+col: 1864
+value: ;" fillcolor=white style=filled]
+	604 -> 605
+	603 [label=Sentencias fillcolor=white style=filled]
+	589 -> 603
+	618 [label=sentencia fillcolor=white style=filled]
+	603 -> 618
+	621 [label="PRINT
+line: 81
+col: 1870
+value: imprimir" fillcolor=white style=filled]
+	618 -> 621
+	620 [label=STRING_CONSOLE fillcolor=white style=filled]
+	618 -> 620
+	624 [label="PARENTESIS_ABIERTO
+line: 81
+col: 1878
+value: (" fillcolor=white style=filled]
+	620 -> 624
+	623 [label=TX fillcolor=white style=filled]
+	620 -> 623
+	626 [label="CADENA
+line: 81
+col: 1879
+value: Variable Booleana: " fillcolor=white style=filled]
+	623 -> 626
+	625 [label=RX fillcolor=white style=filled]
+	623 -> 625
+	628 [label="COMA
+line: 81
+col: 1900
+value: ," fillcolor=white style=filled]
+	625 -> 628
+	627 [label=TX fillcolor=white style=filled]
+	625 -> 627
+	630 [label="ID
+line: 81
+col: 1902
+value: variable_booleana" fillcolor=white style=filled]
+	627 -> 630
+	629 [label=RX fillcolor=white style=filled]
+	627 -> 629
+	622 [label="PARENTESIS_CERRADO
+line: 81
+col: 1919
+value: )" fillcolor=white style=filled]
+	620 -> 622
+	619 [label="PUNTO_COMA
+line: 81
+col: 1920
+value: ;" fillcolor=white style=filled]
+	618 -> 619
+	617 [label=Sentencias fillcolor=white style=filled]
+	603 -> 617
+	632 [label=sentencia fillcolor=white style=filled]
+	617 -> 632
+	635 [label="PRINT
+line: 82
+col: 1926
+value: imprimir" fillcolor=white style=filled]
+	632 -> 635
+	634 [label=STRING_CONSOLE fillcolor=white style=filled]
+	632 -> 634
+	638 [label="PARENTESIS_ABIERTO
+line: 82
+col: 1934
+value: (" fillcolor=white style=filled]
+	634 -> 638
+	637 [label=TX fillcolor=white style=filled]
+	634 -> 637
+	640 [label="CADENA
+line: 82
+col: 1935
+value: Resultado Suma: " fillcolor=white style=filled]
+	637 -> 640
+	639 [label=RX fillcolor=white style=filled]
+	637 -> 639
+	642 [label="COMA
+line: 82
+col: 1953
+value: ," fillcolor=white style=filled]
+	639 -> 642
+	641 [label=TX fillcolor=white style=filled]
+	639 -> 641
+	644 [label="ID
+line: 82
+col: 1955
+value: resultado_suma" fillcolor=white style=filled]
+	641 -> 644
+	643 [label=RX fillcolor=white style=filled]
+	641 -> 643
+	636 [label="PARENTESIS_CERRADO
+line: 82
+col: 1969
+value: )" fillcolor=white style=filled]
+	634 -> 636
+	633 [label="PUNTO_COMA
+line: 82
+col: 1970
+value: ;" fillcolor=white style=filled]
+	632 -> 633
+	631 [label=Sentencias fillcolor=white style=filled]
+	617 -> 631
+	646 [label=sentencia fillcolor=white style=filled]
+	631 -> 646
+	649 [label="PRINT
+line: 83
+col: 1976
+value: imprimir" fillcolor=white style=filled]
+	646 -> 649
+	648 [label=STRING_CONSOLE fillcolor=white style=filled]
+	646 -> 648
+	652 [label="PARENTESIS_ABIERTO
+line: 83
+col: 1984
+value: (" fillcolor=white style=filled]
+	648 -> 652
+	651 [label=TX fillcolor=white style=filled]
+	648 -> 651
+	654 [label="CADENA
+line: 83
+col: 1985
+value: Resultado Resta: " fillcolor=white style=filled]
+	651 -> 654
+	653 [label=RX fillcolor=white style=filled]
+	651 -> 653
+	656 [label="COMA
+line: 83
+col: 2004
+value: ," fillcolor=white style=filled]
+	653 -> 656
+	655 [label=TX fillcolor=white style=filled]
+	653 -> 655
+	658 [label="ID
+line: 83
+col: 2006
+value: resultado_resta" fillcolor=white style=filled]
+	655 -> 658
+	657 [label=RX fillcolor=white style=filled]
+	655 -> 657
+	650 [label="PARENTESIS_CERRADO
+line: 83
+col: 2021
+value: )" fillcolor=white style=filled]
+	648 -> 650
+	647 [label="PUNTO_COMA
+line: 83
+col: 2022
+value: ;" fillcolor=white style=filled]
+	646 -> 647
+	645 [label=Sentencias fillcolor=white style=filled]
+	631 -> 645
+	660 [label=sentencia fillcolor=white style=filled]
+	645 -> 660
+	663 [label="PRINT
+line: 84
+col: 2028
+value: imprimir" fillcolor=white style=filled]
+	660 -> 663
+	662 [label=STRING_CONSOLE fillcolor=white style=filled]
+	660 -> 662
+	666 [label="PARENTESIS_ABIERTO
+line: 84
+col: 2036
+value: (" fillcolor=white style=filled]
+	662 -> 666
+	665 [label=TX fillcolor=white style=filled]
+	662 -> 665
+	668 [label="CADENA
+line: 84
+col: 2037
+value: Resultado MultiplicaciÃ³n: " fillcolor=white style=filled]
+	665 -> 668
+	667 [label=RX fillcolor=white style=filled]
+	665 -> 667
+	670 [label="COMA
+line: 84
+col: 2066
+value: ," fillcolor=white style=filled]
+	667 -> 670
+	669 [label=TX fillcolor=white style=filled]
+	667 -> 669
+	672 [label="ID
+line: 84
+col: 2068
+value: resultado_mult" fillcolor=white style=filled]
+	669 -> 672
+	671 [label=RX fillcolor=white style=filled]
+	669 -> 671
+	664 [label="PARENTESIS_CERRADO
+line: 84
+col: 2082
+value: )" fillcolor=white style=filled]
+	662 -> 664
+	661 [label="PUNTO_COMA
+line: 84
+col: 2083
+value: ;" fillcolor=white style=filled]
+	660 -> 661
+	659 [label=Sentencias fillcolor=white style=filled]
+	645 -> 659
+	674 [label=sentencia fillcolor=white style=filled]
+	659 -> 674
+	677 [label="PRINT
+line: 85
+col: 2089
+value: imprimir" fillcolor=white style=filled]
+	674 -> 677
+	676 [label=STRING_CONSOLE fillcolor=white style=filled]
+	674 -> 676
+	680 [label="PARENTESIS_ABIERTO
+line: 85
+col: 2097
+value: (" fillcolor=white style=filled]
+	676 -> 680
+	679 [label=TX fillcolor=white style=filled]
+	676 -> 679
+	682 [label="CADENA
+line: 85
+col: 2098
+value: Resultado DivisiÃ³n: " fillcolor=white style=filled]
+	679 -> 682
+	681 [label=RX fillcolor=white style=filled]
+	679 -> 681
+	684 [label="COMA
+line: 85
+col: 2121
+value: ," fillcolor=white style=filled]
+	681 -> 684
+	683 [label=TX fillcolor=white style=filled]
+	681 -> 683
+	686 [label="ID
+line: 85
+col: 2123
+value: resultado_div" fillcolor=white style=filled]
+	683 -> 686
+	685 [label=RX fillcolor=white style=filled]
+	683 -> 685
+	678 [label="PARENTESIS_CERRADO
+line: 85
+col: 2136
+value: )" fillcolor=white style=filled]
+	676 -> 678
+	675 [label="PUNTO_COMA
+line: 85
+col: 2137
+value: ;" fillcolor=white style=filled]
+	674 -> 675
+	673 [label=Sentencias fillcolor=white style=filled]
+	659 -> 673
+	688 [label=sentencia fillcolor=white style=filled]
+	673 -> 688
+	691 [label="PRINT
+line: 86
+col: 2143
+value: imprimir" fillcolor=white style=filled]
+	688 -> 691
+	690 [label=STRING_CONSOLE fillcolor=white style=filled]
+	688 -> 690
+	694 [label="PARENTESIS_ABIERTO
+line: 86
+col: 2151
+value: (" fillcolor=white style=filled]
+	690 -> 694
+	693 [label=TX fillcolor=white style=filled]
+	690 -> 693
+	696 [label="CADENA
+line: 86
+col: 2152
+value: Resultado de la funciÃ³n Fibonacci: " fillcolor=white style=filled]
+	693 -> 696
+	695 [label=RX fillcolor=white style=filled]
+	693 -> 695
+	698 [label="COMA
+line: 86
+col: 2190
+value: ," fillcolor=white style=filled]
+	695 -> 698
+	697 [label=TX fillcolor=white style=filled]
+	695 -> 697
+	700 [label="ID
+line: 86
+col: 2192
+value: resultado_fibonacci" fillcolor=white style=filled]
+	697 -> 700
+	699 [label=RX fillcolor=white style=filled]
+	697 -> 699
+	692 [label="PARENTESIS_CERRADO
+line: 86
+col: 2211
+value: )" fillcolor=white style=filled]
+	690 -> 692
+	689 [label="PUNTO_COMA
+line: 86
+col: 2212
+value: ;" fillcolor=white style=filled]
+	688 -> 689
+	687 [label=Sentencias fillcolor=white style=filled]
+	673 -> 687
+	221 [label=RTN fillcolor=white style=filled]
+	218 -> 221
+	703 [label="RETURN
+line: 89
+col: 2244
+value: devolver" fillcolor=white style=filled]
+	221 -> 703
+	702 [label=E fillcolor=white style=filled]
+	221 -> 702
+	705 [label=T fillcolor=white style=filled]
+	702 -> 705
+	707 [label=FH fillcolor=white style=filled]
+	705 -> 707
+	708 [label="NUMERO
+line: 89
+col: 2253
+value: 0" fillcolor=white style=filled]
+	707 -> 708
+	706 [label="T'" fillcolor=white style=filled]
+	705 -> 706
+	704 [label="E'" fillcolor=white style=filled]
+	702 -> 704
+	701 [label="PUNTO_COMA
+line: 89
+col: 2254
+value: ;" fillcolor=white style=filled]
+	221 -> 701
+	220 [label="LLAVE_CERRADO
+line: 45
+col: 880
+value: }" fillcolor=white style=filled]
+	218 -> 220
+	219 [label=PROGRAMA fillcolor=white style=filled]
+	218 -> 219
+}
