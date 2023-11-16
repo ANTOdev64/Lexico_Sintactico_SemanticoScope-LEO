@@ -1,0 +1,24 @@
+/- Este es un programa de ejemplo en LEO
+que ilustra el uso de comentarios en bloque. -/
+
+-- Función para calcular el promedio de tres números
+decimal funcion promedio(entero a, entero b, entero c)
+{
+  decimal suma = a + b + c
+  decimal prom = suma / 3  -- Calcula el promedio
+  
+  devolver prom
+}
+
+/- Programa principal
+Calcula el promedio de 5, 10 y 15. -/
+entero num1 = 5
+entero num2 = 10
+
+/- Llamada a la función promedio
+   para calcular el promedio de num1 y num2. -/
+decimal resultado = promedio(num1, num2, 15)
+
+/- Imprime el resultado -/
+imprimir("El promedio es: ", resultado)
+/- Fin del programa -/

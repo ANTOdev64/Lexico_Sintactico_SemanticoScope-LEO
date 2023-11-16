@@ -1,0 +1,11 @@
+texto funcion di_hola ()
+{
+  texto hola = "Hola";
+  devolver hola;
+}
+
+entero funcion principal ()
+{
+  texto hola = di_hola();
+  imprimir (hola);
+}
