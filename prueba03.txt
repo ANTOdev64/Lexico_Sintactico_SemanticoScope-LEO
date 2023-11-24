@@ -1,11 +1,11 @@
-texto funcion di_hola ()
-{
-  texto hola = "Hola";
-  devolver hola;
-}
-
 entero funcion principal ()
 {
-  texto hola = di_hola();
-  imprimir (hola);
+  entero x;
+  entero yi;
+  entero h = 5;
+
+  x = 5;
+  yi = x + 10 + h;
+
+  imprimir(yi);
 }
