@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 entero funcion principal ()
 {
   entero x;
@@ -9,3 +10,32 @@ entero funcion principal ()
 
   imprimir(yi);
 }
+=======
+-- Función para calcular el área de un rectángulo
+
+decimal funcion calcularArea(entero largo, entero ancho)
+{
+  decimal area = largo * ancho;
+  devolver area;
+}
+
+decimal funcion calcularArea_2(entero largo, entero ancho)
+{
+  decimal area = largo * ancho;
+  devolver area;
+}
+
+
+-- Programa principal
+
+entero funcion principal ()
+{
+  entero largoRectangulo = 5;
+  entero anchoRectangulo = 3.5;
+
+  decimal resultado = calcularArea(largoRectangulo, anchoRectangulo);
+
+  imprimir("El área del rectángulo es: ", resultado);
+}
+
+>>>>>>> 04d0d15fba65924c04dd0cac2b499d331d97592c
