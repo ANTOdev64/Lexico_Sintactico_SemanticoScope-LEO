@@ -1,22 +1,25 @@
--- Este es un ejemplo de programa en LEO
-entero funcion suma(entero a, entero b)
-{
-  devolver a + b;
-}
+/--
+# main ( ) { 
+#    int x = 10;
+#    if (x > 20)
+#       x = 10;
+#    else
+#       x = 11;
+# }
+--/
 
--- Función principal
 entero funcion principal()
 {
-  -- Declaración de variables
-  entero x = 5;
-  entero yi = 10;
+  entero x = 10;
+  
+  si (x > 20)
+  {
+    x = 10;
+  }
+  contrario
+  {
+    x = 11;
+  }
 
-  -- Llamada a la función
-  entero resultado = suma(x, yi)
-
-  -- Imprimir el resultado
-  imprimir("La suma de", x, "y", yi, "es:", resultado);
-
-  -- Devolver un valor (en este caso, no es necesario)
-  devolver 0;
+  imprimir(x);
 }

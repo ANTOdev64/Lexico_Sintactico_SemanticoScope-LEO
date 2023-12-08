@@ -122,7 +122,7 @@ def arbolSintactico(root):
           time.sleep(1)
 
       time.sleep(1)
-      dot.render('arbolSintactico', format='png', view=True)
+      dot.render('arbolSintactico', format='png', view=False)
 
 error = False
 n = 0

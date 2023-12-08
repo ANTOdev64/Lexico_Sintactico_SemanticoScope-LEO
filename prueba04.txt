@@ -1,34 +1,23 @@
-entero funcion fibonacci(entero n)
+entero funcion f1 (entero p)
 {
-  si (n <= 0) 
-  {
-    devolver 0;
-  }
-  contrariosi (n != 1) 
-  {
-    devolver 1;
-  }
-  contrario
-  {
-    entero a = 0;
-    entero b = 1;
-    entero resultado = 0;
-
-    para (entero i = 2 hastaque i <= n enpaso 1)
-    {
-      resultado = a + b;
-      a = b;
-      b = resultado;
-    }
-
-    devolver resultado;
-  }
+  devolver p + 5;
 }
 
 entero funcion principal ()
 {
-  -- Llamada a la función para obtener el término n-ésimo de Fibonacci
+  entero x;
+  entero a = 3 * 2;
 
-  entero resultado = fibonacci(10);
-  imprimir("El término 10 de Fibonacci es: ", resultado);
+  x = f1(15) + a;
+
+  si (x > 18)
+  {
+    x = x + 3;
+  }
+  contrario
+  {
+    x = a;
+  }
+
+  imprimir(x);
 }

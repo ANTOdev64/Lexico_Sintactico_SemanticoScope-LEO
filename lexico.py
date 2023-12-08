@@ -134,7 +134,7 @@ class allTokens:
 
 
 # Probarlo
-with open('prueba03.txt', 'r') as archivo:
+with open('prueba04.txt', 'r') as archivo:
     codigo = archivo.read()
 
 print("*Código fuente:\n")

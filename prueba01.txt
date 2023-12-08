@@ -1,7 +1,14 @@
+/--
+# main(){
+#	int a;
+#	int x = 7 + 5;
+# }
+--/
+
 entero funcion principal ()
 {
-  texto resultado = "Sin resultado";
-  imprimir(resultado);
+  entero a;
+  entero x = 7 + 5;
 
-  devolver 0;
+  imprimir(x);
 }
